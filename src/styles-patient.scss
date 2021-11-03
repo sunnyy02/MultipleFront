@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 20px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: azure;
+}
+
+.nav-item  > a:focus {
+  background-color: #efefef;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    background-color: darkorchid;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration:darkslategrey;
+    padding: 12px;
+}
+
+h1 {
+  font: 200;
+}
+
+.menu li a:hover {
+    background-color: #082d85;
+}

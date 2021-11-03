@@ -26,13 +26,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -63,7 +58,8 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "styles": ["src/styles-patient.scss"]
             },
             "doctor": {
               "fileReplacements": [
@@ -81,6 +77,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "styles": ["src/styles-doctor.scss"],
               "budgets": [
                 {
                   "type": "initial",
@@ -134,10 +131,10 @@
             },
             "development": {
               "browserTarget": "multiFront:build:development"
-            }, 
+            },
             "doctor": {
               "browserTarget": "multiFront:build:doctor"
-            },  
+            },
             "doctorproduction": {
               "browserTarget": "multiFront:build:doctorproduction"
             }
@@ -158,13 +155,8 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         }

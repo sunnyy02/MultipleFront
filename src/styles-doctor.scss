@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 20px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: lightgray;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    background-color: darkolivegreen;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu li a:hover {
+    background-color: #082d85;
+}
